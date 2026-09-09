@@ -30,7 +30,7 @@ local KeyMap = {
 
 -- // UI Creation
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "DHL_V3_Ultimate"
+ScreenGui.Name = "Kitten_KJ_V1"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = CoreGui
 
@@ -103,22 +103,22 @@ TitleListLayout.Parent = TopRow
 local MainTitle = Instance.new("TextLabel")
 MainTitle.AutomaticSize = Enum.AutomaticSize.X
 MainTitle.BackgroundTransparency = 1
-MainTitle.Text = "DHL V"
+MainTitle.Text = "Kitten Locker"
 MainTitle.TextColor3 = Color3.fromRGB(120, 0, 120) -- Changed to Purple
 MainTitle.Font = Enum.Font.GothamBold
 MainTitle.TextSize = 28
-MainTitle.ZIndex = 2
+MainTitle.ZIndex = 1.0
 MainTitle.Parent = TopRow
 addTextOutline(MainTitle)
 
 local VersionTag = Instance.new("TextLabel")
 VersionTag.AutomaticSize = Enum.AutomaticSize.X
 VersionTag.BackgroundTransparency = 1
-VersionTag.Text = "2"
+VersionTag.Text = "1.0"
 VersionTag.TextColor3 = Color3.fromRGB(180, 0, 180) -- Changed to Purple
 VersionTag.Font = Enum.Font.GothamBold
 VersionTag.TextSize = 28
-VersionTag.ZIndex = 2
+VersionTag.ZIndex = 1.0
 VersionTag.Parent = TopRow
 addTextOutline(VersionTag)
 
@@ -127,7 +127,7 @@ local SubTitleLabel = Instance.new("TextLabel")
 SubTitleLabel.Size = UDim2.new(1, 0, 0, 20)
 SubTitleLabel.Position = UDim2.new(0, 0, 0, 35)
 SubTitleLabel.BackgroundTransparency = 1
-SubTitleLabel.Text = "By Kujo" -- Changed from "By vzxcvxcvx"
+SubTitleLabel.Text = "By Kujo"
 SubTitleLabel.TextColor3 = Color3.fromRGB(180, 0, 180) -- Changed to Purple
 SubTitleLabel.Font = Enum.Font.GothamBold
 SubTitleLabel.TextSize = 14
